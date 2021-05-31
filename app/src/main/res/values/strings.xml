@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">Home</string>
+    <string name="identify_the_car_make">Identify The Car Make</string>
+    <string name="identify_the_car_image">Identify the Car Image</string>
+    <string name="advanced_level">Advanced Level</string>
+    <string name="Car_main">Car_main</string>
+    <string name="hints">Hints</string>
+    <string name="car_make_img_main">carMakeImg_main</string>
+    <string name="btn_identify">Identify</string>
+    <string name="correct_msg">CORRECT!</string>
+    <string name="wrong_msg">WRONG!</string>
+    <string name="next">Next</string>
+    <string name="answer_Lamborghini">Correct answer is Lamborghini</string>
+    <string name="answer_jaguar">Correct answer is Jaguar</string>
+    <string name="answer_benz">Correct answer is Mercedes Benz</string>
+    <string name="answer_bmw">Correct answer is BMW</string>
+    <string name="answer_audi">Correct answer is Audi</string>
+    <string name="icon_img">icon_img</string>
+    <string name="hintRanImg">hint_ran_img</string>
+    <string name="submit_btn_hint">Submit</string>
+    <string name="drop_a_letter">Drop a Letter</string>
+    <string name="a">A</string>
+    <string name="next_btn">Next</string>
+    <string name="image_car">TODO</string>
+    <string name="car_one_img">car_one_img</string>
+    <string name="string_car_one_img">carOneImg</string>
+    <string name="car_two_img">carTwoImg</string>
+    <string name="string_car_two_img">carTwoImg</string>
+    <string name="cat_three_img">cat_three_img</string>
+    <string name="string_cat_three_img">carThreeImg</string>
+    <string name="submit">Submit</string>
+    <string name="string_submit">submit</string>
+    <string name="car_name">Car Name</string>
+    <string name="use_timer">Use Timer</string>
+    <string name="time">00:00</string>
+
+
+    <string-array name="brand_names">
+        <item>Pick Car Brand </item>
+        <item>Lamborghini</item>
+        <item>Jaguar</item>
+        <item>Mercedes Benz</item>
+        <item>BMW</item>
+        <item>Audi</item>
+    </string-array>
+</resources>

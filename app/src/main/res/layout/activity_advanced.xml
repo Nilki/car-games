@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#27FFFFFF"
+    tools:context=".Advanced">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/timer_advanced"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:fontFamily="@font/eagle_lake"
+                android:gravity="center"
+                android:text="@string/time"
+                android:textColor="#FFFFFF"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/score_a"
+                android:layout_width="212dp"
+                android:layout_height="77dp"
+                android:layout_gravity="right"
+                android:layout_marginEnd="10dp"
+                android:layout_marginRight="10dp"
+                android:fontFamily="@font/eagle_lake"
+                android:gravity="center"
+                android:textColor="#FFFFFF"
+                android:textSize="24sp" />
+
+            <ImageView
+                android:id="@+id/carOne"
+                android:layout_width="298dp"
+                android:layout_height="242dp"
+                android:layout_marginStart="60dp"
+                android:layout_marginLeft="60dp"
+                android:contentDescription="@string/string_car_one_img"
+                app:srcCompat="@drawable/jaguar_4" />
+
+            <EditText
+                android:id="@+id/carOneName"
+                android:layout_width="match_parent"
+                android:layout_height="69dp"
+                android:autofillHints=""
+                android:background="#28FFFFFF"
+                android:fontFamily="@font/eagle_lake"
+                android:gravity="center"
+                android:hint="@string/car_name"
+                android:inputType="text"
+                android:textColor="#FFFFFF"
+                android:textColorHint="#5BFFFFFF" />
+
+            <ImageView
+                android:id="@+id/carTwo"
+                android:layout_width="298dp"
+                android:layout_height="242dp"
+                android:layout_marginStart="60dp"
+                android:layout_marginLeft="60dp"
+                android:contentDescription="@string/string_car_two_img"
+                app:srcCompat="@drawable/benz_2" />
+
+            <EditText
+                android:id="@+id/carTwoName"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="#29FFFFFF"
+                android:fontFamily="@font/eagle_lake"
+                android:gravity="center"
+                android:hint="@string/car_name"
+                android:textColor="#FFFFFF"
+                android:textColorHint="#5CFFFFFF" />
+
+            <ImageView
+                android:id="@+id/carThree"
+                android:layout_width="298dp"
+                android:layout_height="242dp"
+                android:layout_marginStart="60dp"
+                android:layout_marginLeft="60dp"
+                android:contentDescription="@string/string_cat_three_img"
+                app:srcCompat="@drawable/lamborghini_6" />
+
+            <EditText
+                android:id="@+id/carThreeName"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="#29FFFFFF"
+                android:fontFamily="@font/eagle_lake"
+                android:gravity="center"
+                android:hint="@string/car_name"
+                android:textColor="#FFFFFF"
+                android:textColorHint="#5CFFFFFF" />
+
+            <TextView
+                android:id="@+id/result_advanced"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:fontFamily="@font/eagle_lake"
+                android:gravity="center"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/correct_answers"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:fontFamily="@font/eagle_lake"
+                android:gravity="center"
+                android:textColor="#FFC107"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/submit_btn"
+                android:layout_width="143dp"
+                android:layout_height="59dp"
+                android:layout_marginStart="135dp"
+                android:layout_marginLeft="135dp"
+                android:fontFamily="@font/eagle_lake"
+                android:onClick="submitAnswer"
+                android:text="@string/string_submit"
+                app:backgroundTint="#7DFFC107"
+                app:cornerRadius="40dp" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

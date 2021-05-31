@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/car_image_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".CarImage">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/timer_car_img"
+                android:layout_width="match_parent"
+                android:layout_height="102dp"
+                android:fontFamily="@font/eagle_lake"
+                android:gravity="center"
+                android:text="@string/time"
+                android:textColor="#FFFFFF"
+                android:textSize="30sp" />
+
+            <ImageView
+                android:id="@+id/car_one"
+                android:layout_width="298dp"
+                android:layout_height="242dp"
+                android:layout_marginStart="60dp"
+                android:layout_marginLeft="60dp"
+                android:clickable="true"
+                android:contentDescription="@string/image_car"
+                android:onClick="carOneClick"
+                app:srcCompat="@drawable/audi_1" />
+
+            <ImageView
+                android:id="@+id/car_two"
+                android:layout_width="298dp"
+                android:layout_height="242dp"
+                android:layout_marginStart="60dp"
+                android:layout_marginLeft="60dp"
+                android:clickable="true"
+                android:onClick="carTwoClick"
+                app:srcCompat="@drawable/benz_2" />
+
+            <ImageView
+                android:id="@+id/car_three"
+                android:layout_width="298dp"
+                android:layout_height="242dp"
+                android:layout_marginStart="60dp"
+                android:layout_marginLeft="60dp"
+                android:clickable="true"
+                android:onClick="carThreeClick"
+                app:srcCompat="@drawable/jaguar_2" />
+
+            <TextView
+                android:id="@+id/carName"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:fontFamily="@font/eagle_lake"
+                android:gravity="center"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/result_view"
+                android:layout_width="298dp"
+                android:layout_height="70dp"
+                android:layout_marginStart="60dp"
+                android:layout_marginLeft="60dp"
+                android:fontFamily="@font/eagle_lake"
+                android:gravity="center"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/btn_next"
+                android:layout_width="200dp"
+                android:layout_height="80dp"
+                android:layout_marginStart="110dp"
+                android:layout_marginLeft="110dp"
+                android:layout_marginTop="5dp"
+                android:enabled="false"
+                android:fontFamily="@font/eagle_lake"
+                android:onClick="nextButtonClick"
+                android:text="@string/next_btn"
+                android:textSize="18sp"
+                app:backgroundTint="#7DFFEB3B"
+                app:cornerRadius="40dp" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
